@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(253, 215, 215);
+}
+
+img {
+  display: inline-block;
+}
+
+.main-logo {
+  height: 80px;
+}
+
+header {
+  border: 3px solid white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+  font-size: 3vh;
+}
+
+.main-menu {
+  display: flex;
+}
+
+section {
+  display: flex;
+  justify-content: left;
+}
+
+.hero-section {
+  background-image: url("IMAGE/1314470_1917_313101.jpg");
+  background-color: rgba(255, 255, 255, 0.44);
+  background-blend-mode: lighten;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 80vh;
+  display: flex;
+}
+
+.hero-section h1 {
+  font-size: 13vh;
+}
+
+.hero-section h1 {
+  flex: 1;
+}
+
+.hero-section div {
+  flex: 1;
+
+  position: relative;
+}
+
+.hero-section img {
+  width: 450px;
+  position: absolute;
+}
+
+.first-picture {
+  top: 245px;
+  left: 300px;
+}
+
+.second-picture {
+  top: 200px;
+  left: 40px;
+}
+
+.third-picture {
+  top: 195px;
+  left: 470px;
+}
+
+.Recommended-programs {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+}
+
+.recommended-images {
+  display: flex;
+}
+
+.Recommended-programs p {
+  font-size: 4vh;
+  font-weight: bold;
+}
+
+.recommended-images img {
+  aspect-ratio: 1.65/1;
+  flex: 1;
+  object-fit: cover;
+  height: 400px;
+}
+
+.Register {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.Register h2 {
+  font-size: 4vh;
+  font-weight: bold;
+}
+
+.Register p {
+  font-size: 20px;
+}
+
+.Register button {
+  background-color: #000000;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+
+.Register button {
+  border-radius: 2px;
+}
+.Register button {
+  border-radius: 4px;
+}
+.Register button {
+  border-radius: 8px;
+}
+.Register button {
+  border-radius: 12px;
+}
+.Register button {
+  border-radius: 50%;
+}
+
+.Why-premeiums {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  padding-bottom: 50px;
+align-items: center;
+}
+
+.premeiums-images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.premeiums-images p {
+
+font size: 20px;
+
+
+}
+
+
+
+
+
+
+.Why-premeiums {
+  font-size: 4vh;
+  font-weight: bold;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  background-image: url("IMAGE/pink-love-cute-gradation-wallpaper-thumb.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 20vh;
+}
