@@ -147,42 +147,74 @@ section {
 
 .Why-premeiums {
   display: flex;
-  flex-direction: column;
   padding-top: 30px;
   padding-bottom: 50px;
-align-items: center;
 }
 
 .premeiums-images {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+.premiums-columns {
+  display: flex;
+  flex-direction: column;
+}
+
+.Why-premeiums h3 {
+  font-size: 4vh;
+  font-weight: bold;
+  align-items: center;
+}
+
+.Anthony {
+  background-image: url(IMAGE/OT-HOZ.jpg);
+  background-color: rgba(224, 209, 209, 0.44);
+  background-blend-mode: lighten;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.Anthony h4 {
+  font-size: 5vh;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+}
+
+.Anthony p {
+  font-size: 11vh;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.footer {
+  background-image: url(IMAGE/pink-love-cute-gradation-wallpaper-thumb.jpg);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 80vh;
+  display: flex;
+  padding-top: 30px;
+}
+
+.footer image {
+  size: 4px;
+}
+
+.footer-paragraph {
+  display: flex;
   justify-content: space-around;
 }
 
-.premeiums-images p {
-
-font size: 20px;
-
-
-}
-
-
-
-
-
-
-.Why-premeiums {
-  font-size: 4vh;
-  font-weight: bold;
-}
-
-footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-
-  background-image: url("IMAGE/pink-love-cute-gradation-wallpaper-thumb.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 20vh;
+.footer p {
+  size: 6vh;
 }
